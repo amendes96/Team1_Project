@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef8a0cf-9b18-458f-a313-3c6731778e60" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestInvalidPass.java" afterPath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestInvalidPass.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
-    </list>
+    <list default="true" id="aef8a0cf-9b18-458f-a313-3c6731778e60" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />

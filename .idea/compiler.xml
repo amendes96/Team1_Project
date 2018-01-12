@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Amazon" />
+        <module name="CitiBank" />
+        <module name="CNN" />
+        <module name="Facebook" />
+        <module name="Generic" />
+        <module name="HuffingtonPost" />
+        <module name="Tesla" />
+        <module name="Youtube" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
+      <module name="CitiBank" target="1.8" />
+      <module name="CNN" target="1.8" />
+      <module name="Facebook" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="HuffingtonPost" target="1.8" />
+      <module name="OrgProjectTeam1" target="1.8" />
+      <module name="Tesla" target="1.8" />
+      <module name="Youtube" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

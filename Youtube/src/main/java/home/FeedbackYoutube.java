@@ -8,6 +8,9 @@ public class FeedbackYoutube {
     @FindBy(id = "text")
     WebElement signIn;
 
+    @FindBy(xpath = ".//*[@id='id-already-subscribed']/a/span")//span[@class='copy']
+    WebElement ads;
+
     @FindBy(id = "identifierId")
     WebElement email;
 
@@ -31,6 +34,7 @@ public class FeedbackYoutube {
 
     public void sndfeedback(){
         signIn.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");

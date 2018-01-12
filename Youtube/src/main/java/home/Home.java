@@ -1,12 +1,16 @@
 package home;
 
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Home {
+public class Home{
 
     @FindBy(id = "text")
     WebElement signIn;
+
+    @FindBy(xpath = ".//*[@id='id-already-subscribed']/a/span")//span[@class='copy']
+    WebElement ads;
 
     @FindBy(id = "identifierId")
     WebElement email;
@@ -52,6 +56,7 @@ public class Home {
 
     public void history() throws InterruptedException {
         signIn.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");

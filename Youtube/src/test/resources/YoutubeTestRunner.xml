@@ -11,7 +11,7 @@
 
     <test name="Test Youtube">
         <classes>
-            <!--<class name="testcasesyoutube.Testvalidsignin"/>-->
+            <class name="testcasesyoutube.Testvalidsignin"/>
             <!--<class name="testcasesyoutube.TestInvalidEmail"/>-->
             <!--<class name="testcasesyoutube.TestInvalidPass"/>-->
             <!--<class name="testcasesyoutube.TestSearch"/>-->

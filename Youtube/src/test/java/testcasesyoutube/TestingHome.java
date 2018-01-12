@@ -9,8 +9,8 @@ public class TestingHome extends CommonAPI{
 
     @Test
     public void testHistory() throws InterruptedException {
-        System.out.println("Above this is for testing the Youtube home page");
         Home hm = PageFactory.initElements(driver, Home.class);
+        System.out.println("Above this is for testing the Youtube home page");
         System.out.println("Current URL: " + getCurrentPageUrl());
         hm.history();
         navigateBack();

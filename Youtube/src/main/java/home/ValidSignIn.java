@@ -9,6 +9,9 @@ public class ValidSignIn {
     @FindBy(id = "text")
     WebElement signIn;
 
+    @FindBy(xpath = ".//*[@id='id-already-subscribed']/a/span")//span[@class='copy']
+    WebElement ads;
+
     @FindBy(id = "identifierId")
     WebElement email;
 
@@ -23,6 +26,7 @@ public class ValidSignIn {
 
     public void login() throws InterruptedException {
         signIn.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");

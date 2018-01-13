@@ -10,13 +10,13 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>CitiBank</module>
         <module>Youtube</module>
         <module>Amazon</module>
         <module>Facebook</module>
         <module>HuffingtonPost</module>
         <module>CNN</module>
         <module>Tesla</module>
+        <module>CitiBank</module>
     </modules>
 
     <dependencyManagement>

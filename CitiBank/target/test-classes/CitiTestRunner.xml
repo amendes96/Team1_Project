@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CitiBank" parallel="none">
+
+    <test name="Test CitiBank HomePage">
+
+
+        <!--<parameter name="useCloudEnv" value="false"/>-->
+        <!--<parameter name="cloudEnvName" value="browserstack"/>-->
+        <parameter name="browser_name" value="chrome"/>
+        <parameter name="browserVersion" value="34"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="10"/>
+        <parameter name="url" value="https://online.citi.com/US/login.do"/>
+
+        <classes>
+            <class name="testhomepage.TestHomePage"/>
+            <class name="testhomepage.TestCreditCard"/>
+        </classes>
+    </test>
+
+</suite>

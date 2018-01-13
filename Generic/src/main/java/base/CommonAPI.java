@@ -84,8 +84,8 @@ public class CommonAPI {
             getLocalDriver(os, browser_name);
         }
         getLocalDriver(browser_name,os);
-        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(35, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(55, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(url);
     }
@@ -93,10 +93,10 @@ public class CommonAPI {
     public WebDriver getLocalDriver(String browserName, String os) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (os.equalsIgnoreCase("windows")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\alistair\\IdeaProjects\\OrgProjectTeam1\\Generic\\driver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nigar Sultana\\Team1_Project\\Generic\\driver\\chromedriver.exe");
                 driver = new ChromeDriver();
             } else if (os.equalsIgnoreCase("mac")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\alistair\\IdeaProjects\\OrgProjectTeam1\\Generic\\driver\\chromedriver");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nigar Sultana\\Team1_Project\\Generic\\driver\\chromedriver");
                 driver = new ChromeDriver();
             }
         }

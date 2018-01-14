@@ -6,10 +6,12 @@ Project Assigned by: Mafi Sir
 Batch: November 2017
 
 Team Members with modules
-  1)Alton Mendes (John): Youtube and HuffingtonPost
-    2)Sheikh Islam: Tesla
-      3)Urbana Zamal: HealthFirst, SallieMae and Amazon
-        4)Sharif Rafiq: Citi Bank
-          5)Mohammad Kabir: Facebook
+-Alton Mendes (John): Youtube and HuffingtonPost
+-Sheikh Islam: Tesla
+-Urbana Zamal: HealthFirst, SallieMae and Amazon
+-Sharif Rafiq: Citi Bank
+-Mohammad Kabir: Facebook
 
 *Never make any changes to the master branch
+
+Repository Link: https://github.com/amendes96/Team1_Project

@@ -17,6 +17,8 @@
         <module>HuffingtonPost</module>
         <module>CNN</module>
         <module>Tesla</module>
+        <module>HealthFirst</module>
+        <module>SallieMae</module>
     </modules>
 
     <dependencyManagement>
@@ -65,6 +67,11 @@
                 <groupId>org.mongodb</groupId>
                 <artifactId>mongo-java-driver</artifactId>
                 <version>3.6.0-beta1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client</artifactId>
+                <version>1.22.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="CitiBank" />
-        <module name="CNN" />
         <module name="Facebook" />
         <module name="Generic" />
+        <module name="HealthFirst" />
         <module name="HuffingtonPost" />
+        <module name="SallieMae" />
         <module name="Tesla" />
         <module name="Youtube" />
       </profile>
@@ -22,8 +23,10 @@
       <module name="CNN" target="1.8" />
       <module name="Facebook" target="1.8" />
       <module name="Generic" target="1.8" />
+      <module name="HealthFirst" target="1.8" />
       <module name="HuffingtonPost" target="1.8" />
       <module name="OrgProjectTeam1" target="1.8" />
+      <module name="SallieMae" target="1.8" />
       <module name="Tesla" target="1.8" />
       <module name="Youtube" target="1.8" />
     </bytecodeTargetLevel>

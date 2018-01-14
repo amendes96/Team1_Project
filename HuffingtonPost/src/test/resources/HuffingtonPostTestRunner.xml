@@ -12,7 +12,8 @@
     <test name="Test Huffington Post">
         <classes>
             <!--<class name="testcaseshuff.TestHomePage"/>-->
-            <class name="testcaseshuff.TestMenuBar"/>
+            <!--<class name="testcaseshuff.TestMenuBar"/>-->
+            <class name="testcaseshuff.TestSubscribeNews"/>
         </classes>
     </test>
 </suite>

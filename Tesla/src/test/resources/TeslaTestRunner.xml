@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="HuffingtonPost" parallel="none">
+<suite name="Tesla" parallel="none">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browser_name" value="chrome"/>
     <parameter name="browserVersion" value="63.0"/>
-    <parameter name="url" value="https://www.huffingtonpost.com/"/>
+    <parameter name="url" value="https://www.tesla.com/"/>
+
+    <test name="Test Tesla">
+        <classes>
+            <class name="testcases.TestEnergy"/>
+            <class name="testcases.TestShop"/>
+            <class name="testcases.TestingtestDrive"/>
+        </classes>
+    </test>
 
 
 </suite>

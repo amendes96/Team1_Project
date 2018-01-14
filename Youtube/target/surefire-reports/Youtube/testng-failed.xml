@@ -10,18 +10,14 @@
   <parameter name="url" value="https://www.youtube.com/"/>
   <test verbose="0" name="Test Youtube(failed)">
     <classes>
-      <class name="testcasesyoutube.TestingHome">
-        <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="setUp"/>
-          <include name="testHistory"/>
-        </methods>
-      </class> <!-- testcasesyoutube.TestingHome -->
       <class name="testcasesyoutube.Testvalidsignin">
         <methods>
           <include name="login"/>
-          <include name="afterEachTestMethod"/>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
           <include name="setUp"/>
+          <include name="startExtent"/>
         </methods>
       </class> <!-- testcasesyoutube.Testvalidsignin -->
     </classes>

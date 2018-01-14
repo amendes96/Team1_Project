@@ -3,6 +3,7 @@ package home;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class ValidSignIn {
 
@@ -25,6 +26,7 @@ public class ValidSignIn {
     WebElement passnextButtom;
 
     public void login() throws InterruptedException {
+        //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+" "+ value);
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -32,6 +34,4 @@ public class ValidSignIn {
         password.sendKeys("youtubeTestRunner");
         passnextButtom.click();
     }
-//https://www.youtube.com/watch?v=cycUHgg0zzU&list=PL7E3dglH2Jf5maKNDP9JHBJJaGMFFfOFK&index=6
-//https://listenonrepeat.com/?v=cycUHgg0zzU#Logic_-_1-800-273-8255_ft__Alessia_Cara_%26_Khalid_(Official_Audio)
 }

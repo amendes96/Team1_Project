@@ -12,4 +12,9 @@ public class TestSearch extends CommonAPI{
         SearchClass search = PageFactory.initElements(driver, SearchClass.class);
         search.searching();
     }
+    @Test
+    public void tstsearch()throws InterruptedException{
+        SearchClass src = PageFactory.initElements(driver,SearchClass.class);
+        src.searching();
+    }
 }

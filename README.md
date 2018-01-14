@@ -1,5 +1,5 @@
 # Team1_Project
-This is the official page of Team 1 project
+This is the official page of Team's 1 project
 
 Project Assigned by: Mafi Sir
 

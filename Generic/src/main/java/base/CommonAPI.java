@@ -232,18 +232,7 @@ public class CommonAPI {
     public void navigateForward() {
         driver.navigate().forward();
     }
-    public String getTextByXpath(String locator) {
-        String st = driver.findElement(By.xpath(locator)).getText();
-        return st;
-    }
-    public String getTextById(String locator) {
-        return driver.findElement(By.id(locator)).getText();
-    }
 
-    public String getTextByName(String locator) {
-        String st = driver.findElement(By.name(locator)).getText();
-        return st;
-    }
     public List<String> getTextFromWebElements(String locator){
         List<WebElement> element = new ArrayList<WebElement>();
         List<String> text = new ArrayList<String>();
@@ -267,6 +256,26 @@ public class CommonAPI {
     public List<WebElement> getListOfWebElementsByXpath(String locator) {
         List<WebElement> list = new ArrayList<WebElement>();
         list = driver.findElements(By.xpath(locator));
+        return list;
+    }
+    public List<WebElement> getListOfWebElementsById(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        list = driver.findElements(By.id(locator));
+        return list;
+    }
+    public List<WebElement> getListOfWebElementsByName(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        list = driver.findElements(By.name(locator));
+        return list;
+    }
+    public List<WebElement> getListOfWebElementsByClassName(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        list = driver.findElements(By.className(locator));
+        return list;
+    }
+    public List<WebElement> getListOfWebElementsByTagName(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        list = driver.findElements(By.tagName(locator));
         return list;
     }
 
@@ -294,6 +303,30 @@ public class CommonAPI {
             action.moveToElement(element).perform();
         }
     }
+    public void mouseHoverById(String locator){
+        try {
+            WebElement element = driver.findElement(By.id(locator));
+            Actions action = new Actions(driver);
+            Actions hover = action.moveToElement(element);
+        }catch(Exception ex){
+            System.out.println("First attempt has been done, This is second try");
+            WebElement element = driver.findElement(By.id(locator));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+        }
+    }
+    public void mouseHoverByName(String locator){
+        try {
+            WebElement element = driver.findElement(By.name(locator));
+            Actions action = new Actions(driver);
+            Actions hover = action.moveToElement(element);
+        }catch(Exception ex){
+            System.out.println("First attempt has been done, This is second try");
+            WebElement element = driver.findElement(By.name(locator));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+        }
+    }
     //iFrame Handle
     public void iframeHandle(WebElement element){
         driver.switchTo().frame(element);
@@ -302,8 +335,8 @@ public class CommonAPI {
     public void goBackToHomeWindow(){
         driver.switchTo().defaultContent();
     }
-    public static void captureScreenshot(WebDriver driver, String screenshotName){
 
+    public static void captureScreenshot(WebDriver driver, String screenshotName){
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
@@ -356,7 +389,55 @@ public class CommonAPI {
     public void clearInput(String locator){
         driver.findElement(By.cssSelector(locator)).clear();
     }
+
+    public String getTextById(String locator){
+        String st = driver.findElement(By.id(locator)).getText();
+        return st;
+    }
+    public String getTextByName(String locator){
+        String st = driver.findElement(By.name(locator)).getText();
+        return st;
+    }
+    public String getTextByClassName(String locator){
+        String st = driver.findElement(By.className(locator)).getText();
+        return st;
+    }
+    public String getTextByTagName(String locator){
+        String st = driver.findElement(By.tagName(locator)).getText();
+        return st;
+    }
+    public String getTextByLinkText(String locator){
+        String st = driver.findElement(By.linkText(locator)).getText();
+        return st;
+    }
+    public String getTextByPartialLinkText(String locator){
+        String st = driver.findElement(By.partialLinkText(locator)).getText();
+        return st;
+    }
+    public String getTextByCss(String locator){
+        String st = driver.findElement(By.cssSelector(locator)).getText();
+        return st;
+    }
+    public String getTextByXpath(String locator){
+        String st = driver.findElement(By.xpath(locator)).getText();
+        return st;
+    }
+    public void okAlert(){
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+    }
+    public void cancelAlert(){
+        Alert alert = driver.switchTo().alert();
+        alert.dismiss();
+    }
+    public void upLoadFileByCss(String locator,String path){
+        driver.findElement(By.cssSelector(locator)).sendKeys(path);
+    }
+    public void upLoadFileByXpath(String locator,String path){
+        driver.findElement(By.xpath(locator)).sendKeys(path);
+    }
 }
+
 //    @BeforeMethod
 //    @Parameters({"browser_name", "os", "url"})
 //    public void setUp(String browser_name, String os, String url)

@@ -1,5 +1,6 @@
 util\DataReader.class
 reporting\ExtentManager.class
+googleApi\SheetReader.class
 reporting\ExtentTestManager.class
 reporting\ApplicationLog.class
 reporting\TestLogger.class

@@ -56,7 +56,7 @@ public class Home{
 
     public void history() throws InterruptedException {
         signIn.click();
-        ads.click();
+        //ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -66,30 +66,72 @@ public class Home{
         Thread.sleep(5000);
     }
     public void trendingpage() throws InterruptedException {
+        signIn.click();
+        //ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
         trending.click();
         Thread.sleep(5000);
     }
     public void subs() throws InterruptedException{
+        signIn.click();
+        //ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
         subscription.click();
         Thread.sleep(3000);
     }
     public void browsingch()throws InterruptedException{
+        signIn.click();
+        //ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
         browseCh.click();
         Thread.sleep(2000);
     }
     public void youtubered() throws InterruptedException {
+        signIn.click();
+        //ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
         youtubeRed.click();
         Thread.sleep(3000);
     }
     public void movies() throws InterruptedException{
+        signIn.click();
+        //ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
         youtubemovies.click();
         Thread.sleep(3000);
     }
     public void youtubesettings() throws InterruptedException{
+        signIn.click();
+        //ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
         settings.click();
         Thread.sleep(300);
     }
     public void utubehlp()throws InterruptedException{
+        signIn.click();
+        //ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
         helpbttn.click();
         helpbttn.getLocation();
     }

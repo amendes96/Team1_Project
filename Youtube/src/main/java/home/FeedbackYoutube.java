@@ -34,7 +34,7 @@ public class FeedbackYoutube {
 
     public void sndfeedback(){
         signIn.click();
-        ads.click();
+        //ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");

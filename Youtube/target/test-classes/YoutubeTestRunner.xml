@@ -11,14 +11,15 @@
 
     <test name="Test Youtube">
         <classes>
-            <class name="testcasesyoutube.Testvalidsignin"/>
-            <class name="testcasesyoutube.TestInvalidEmail"/>
-            <class name="testcasesyoutube.TestInvalidPass"/>
-            <class name="testcasesyoutube.TestSearch"/>
-            <class name="testcasesyoutube.TestingHome"/>
-            <class name="testcasesyoutube.TestYoutubeSettings"/>
-            <class name="testcasesyoutube.TestYoutubeHelp"/>
-            <class name="testcasesyoutube.TestFeedback"/>
+            <!--<class name="testcasesyoutube.Testvalidsignin"/>-->
+            <!--<class name="testcasesyoutube.TestInvalidEmail"/>-->
+            <!--<class name="testcasesyoutube.TestInvalidPass"/>-->
+            <!--<class name="testcasesyoutube.TestSearch"/>-->
+            <!--<class name="testcasesyoutube.TestingHome"/>-->
+            <!--<class name="testcasesyoutube.TestYoutubeSettings"/>-->
+            <!--<class name="testcasesyoutube.TestYoutubeHelp"/>-->
+            <!--<class name="testcasesyoutube.TestFeedback"/>-->
+            <class name="testcasesyoutube.TestYoutubeRed"/>
         </classes>
     </test>
 </suite>

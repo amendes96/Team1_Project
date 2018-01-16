@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.956 s <<< FAILURE! - in TestSuite
-login(testcasesyoutube.Testvalidsignin)  Time elapsed: 28.311 s  <<< FAILURE!
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 394.837 s <<< FAILURE! - in TestSuite
+invEmail(testcasesyoutube.TestInvalidEmail)  Time elapsed: 28.287 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='id-already-subscribed']/a/span"}
   (Session info: chrome=63.0.3239.132)
@@ -10,10 +10,10 @@ no such element: Unable to locate element: {"method":"xpath","selector":".//*[@i
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'MENDES', ip: '192.168.49.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'MENDES', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\alistair\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
-Session ID: e153e806ed5bbf2673a97a20ec305329
+Session ID: ff9252d2dbef927f2638129f3922dc27
 *** Element info: {Using=xpath, value=.//*[@id='id-already-subscribed']/a/span}
-	at testcasesyoutube.Testvalidsignin.login(Testvalidsignin.java:13)
+	at testcasesyoutube.TestInvalidEmail.invEmail(TestInvalidEmail.java:13)
 

@@ -10,16 +10,16 @@
   <parameter name="url" value="https://www.youtube.com/"/>
   <test verbose="0" name="Test Youtube(failed)">
     <classes>
-      <class name="testcasesyoutube.Testvalidsignin">
+      <class name="testcasesyoutube.TestInvalidEmail">
         <methods>
-          <include name="login"/>
           <include name="tearDown"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="startExtent"/>
+          <include name="invEmail"/>
         </methods>
-      </class> <!-- testcasesyoutube.Testvalidsignin -->
+      </class> <!-- testcasesyoutube.TestInvalidEmail -->
     </classes>
   </test> <!-- Test Youtube(failed) -->
 </suite> <!-- Failed suite [Youtube] -->

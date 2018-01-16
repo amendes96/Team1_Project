@@ -19,6 +19,7 @@
             <class name="testcasesyoutube.TestYoutubeSettings"/>
             <class name="testcasesyoutube.TestYoutubeHelp"/>
             <class name="testcasesyoutube.TestFeedback"/>
+            <class name="testcasesyoutube.TestYoutubeRed"/>
         </classes>
     </test>
 </suite>

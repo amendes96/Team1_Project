@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-public class YoutubeRed extends CommonAPI{
+public class YoutubeRed extends CommonAPI {
 
     @FindBy(id = "text")
     WebElement free;
@@ -38,7 +38,16 @@ public class YoutubeRed extends CommonAPI{
     @FindBy(xpath = ".//*[@id='expand-arrow']")
     WebElement faqred;
 
-    public void freeTrial()throws InterruptedException{
+    @FindBy(xpath = "//a[contains(.,'family membership')]")
+    WebElement family;
+
+    @FindBy(xpath = "//yt-formatted-string[contains(.,'Try it free')]")
+    WebElement familyfree;
+
+    @FindBy(xpath = "//a[contains(@href,'overview&hl=en')]")
+    WebElement learnmore;
+
+    public void freeTrial() throws InterruptedException {
         signIn.click();
         //ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -50,6 +59,7 @@ public class YoutubeRed extends CommonAPI{
         Thread.sleep(3000);
         //crdtcardname.sendKeys("123456789", Keys.TAB);
     }
+
     public void faq() throws InterruptedException {
         signIn.click();
         //ads.click();
@@ -60,5 +70,20 @@ public class YoutubeRed extends CommonAPI{
         youtubeRed.click();
         faqred.click();
         Thread.sleep(3000);
+    }
+
+    public void familyMembership() throws InterruptedException {
+        signIn.click();
+        //ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
+        youtubeRed.click();
+        family.click();
+        Thread.sleep(3000);
+        learnmore.click();
+        driver.switchTo().defaultContent();
+        familyfree.click();
     }
 }

@@ -2,47 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef8a0cf-9b18-458f-a313-3c6731778e60" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestYoutubeRed.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/CitiBankExtent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/CitiBankExtent-Report/ExtentReport.html" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/googleApi/SheetReader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/FeedbackYoutube.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/FeedbackYoutube.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/Home.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/Home.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/ValidSignIn.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/ValidSignIn.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestingHome.java" afterPath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestingHome.java" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestYoutubeRed.java" afterPath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestYoutubeRed.java" />
       <change beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/Youtube-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Youtube/target/Youtube-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/FeedbackYoutube.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/FeedbackYoutube.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/Home.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/Home.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/ValidSignIn.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/ValidSignIn.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Youtube/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/TEST-TestSuite.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/TestSuite.txt" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/Youtube/Test Youtube.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/Youtube/Test Youtube.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/Youtube/Test Youtube.xml" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/Youtube/Test Youtube.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/Youtube/testng-failed.xml" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/Youtube/testng-failed.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/emailable-report.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/index.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-testcasesyoutube.TestYoutubeSettings.xml" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-testcasesyoutube.TestYoutubeSettings.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-testcasesyoutube.TestingHome.xml" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-testcasesyoutube.TestingHome.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-testcasesyoutube.Testvalidsignin.xml" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/junitreports/TEST-testcasesyoutube.Testvalidsignin.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/classes.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/classes.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/methods-alphabetical.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/methods-not-run.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/methods-not-run.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/methods.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/methods.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/testng.xml.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/testng.xml.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/toc.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/Youtube/toc.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/old/index.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/testng-failed.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/Youtube/target/surefire-reports/testng-results.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" />
+      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/YoutubeRed.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/YoutubeRed.class" />
+      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/testcasesyoutube/TestYoutubeRed.class" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/testcasesyoutube/TestYoutubeRed.class" />
       <change beforePath="$PROJECT_DIR$/YoutubeExtent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/YoutubeExtent-Report/ExtentReport.html" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,8 +34,8 @@
       <file leaf-file-name="YoutubeTestRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,23 +64,10 @@
       <file leaf-file-name="YoutubeRed.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+            <state relative-caret-position="181">
+              <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="330" column="48" lean-forward="false" selection-start-line="330" selection-start-column="48" selection-end-line="330" selection-end-column="48" />
-              <folding>
-                <element signature="e#14027#14028#0" expanded="true" />
-                <element signature="e#14075#14076#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,8 +76,8 @@
       <file leaf-file-name="TestYoutubeRed.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestYoutubeRed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="149">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -263,41 +216,6 @@
             <path>
               <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrgProjectTeam1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrgProjectTeam1" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrgProjectTeam1" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrgProjectTeam1" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrgProjectTeam1" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrgProjectTeam1" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
@@ -650,21 +568,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 19h 24m 05s.xml">
-      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 19h 26m 36s.xml">
-      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 19h 29m 43s.xml">
-      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 19h 31m 03s.xml">
-      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 19h 58m 04s.xml">
-      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 19h 59m 30s.xml">
       <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -675,6 +578,21 @@
       <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 20h 26m 50s.xml">
+      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 20h 51m 17s.xml">
+      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 20h 53m 31s.xml">
+      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 20h 59m 19s.xml">
+      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 21h 01m 29s.xml">
+      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.15 at 21h 05m 20s.xml">
       <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestYoutubeRed - 2018.01.15 at 19h 58m 35s.xml">
@@ -1068,16 +986,16 @@
         <state relative-caret-position="76">
           <caret line="330" column="48" lean-forward="false" selection-start-line="330" selection-start-column="48" selection-end-line="330" selection-end-column="48" />
           <folding>
-            <element signature="e#14027#14028#0" expanded="true" />
-            <element signature="e#14075#14076#0" expanded="true" />
+            <element signature="e#14027#14028#0" expanded="false" />
+            <element signature="e#14075#14076#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestYoutubeRed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="149">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1086,8 +1004,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        <state relative-caret-position="181">
+          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1096,8 +1014,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

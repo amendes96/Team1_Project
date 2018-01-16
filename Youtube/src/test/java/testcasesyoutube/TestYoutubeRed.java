@@ -9,15 +9,20 @@ import org.testng.asserts.SoftAssert;
 
 public class TestYoutubeRed extends CommonAPI {
 
+//    @Test(priority = 1)
+//    public void testfreetrail() throws InterruptedException {
+//        YoutubeRed ytred = PageFactory.initElements(driver, YoutubeRed.class);
+//        ytred.freeTrial();
+//    }
+//    @Test(priority = 2)
+//    public void testfaq() throws InterruptedException {
+//        YoutubeRed faqytred = PageFactory.initElements(driver,YoutubeRed.class);
+//        faqytred.faq();
+//        ((JavascriptExecutor)driver).executeScript("scroll(0,4000)");
+//    }
     @Test(priority = 1)
-    public void testfreetrail() throws InterruptedException {
-        YoutubeRed ytred = PageFactory.initElements(driver, YoutubeRed.class);
-        ytred.freeTrial();
-    }
-    @Test(priority = 2)
-    public void testfaq() throws InterruptedException {
-        YoutubeRed faqytred = PageFactory.initElements(driver,YoutubeRed.class);
-        faqytred.faq();
-        ((JavascriptExecutor)driver).executeScript("scroll(0,4000)");
+    public void testfamilymembership() throws InterruptedException{
+        YoutubeRed fam = PageFactory.initElements(driver, YoutubeRed.class);
+        fam.familyMembership();
     }
 }

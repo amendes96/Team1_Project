@@ -4,12 +4,12 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Home{
+public class Home extends CommonAPI{
 
     @FindBy(id = "text")
     WebElement signIn;
 
-    @FindBy(xpath = ".//*[@id='id-already-subscribed']/a/span")//span[@class='copy']
+    @FindBy(xpath = ".//*[@id='id-already-subscribed']/a/span")//span[@class='copy'] //span[contains(.,'Already A Member?')]
     WebElement ads;
 
     @FindBy(id = "identifierId")
@@ -54,9 +54,17 @@ public class Home{
     @FindBy(xpath = "//span[contains(.,'Help')]")
     WebElement helpbttn;
 
+    @FindBy(xpath = "//button[@id='avatar-btn']")
+    WebElement account;
+
+    public String isCorrectUrl(){
+        String actualUrl = getCurrentPageUrl();
+        return actualUrl;
+    }
+
     public void history() throws InterruptedException {
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -67,7 +75,7 @@ public class Home{
     }
     public void trendingpage() throws InterruptedException {
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -77,7 +85,7 @@ public class Home{
     }
     public void subs() throws InterruptedException{
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -87,7 +95,7 @@ public class Home{
     }
     public void browsingch()throws InterruptedException{
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -97,7 +105,7 @@ public class Home{
     }
     public void youtubered() throws InterruptedException {
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -107,7 +115,7 @@ public class Home{
     }
     public void movies() throws InterruptedException{
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -117,7 +125,7 @@ public class Home{
     }
     public void youtubesettings() throws InterruptedException{
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -127,12 +135,22 @@ public class Home{
     }
     public void utubehlp()throws InterruptedException{
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
         passnextButtom.click();
         helpbttn.click();
         helpbttn.getLocation();
+    }
+    public void accountinfo() throws InterruptedException{
+        signIn.click();
+        ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
+        account.click();
+        Thread.sleep(2000);
     }
 }

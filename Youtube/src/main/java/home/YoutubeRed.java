@@ -1,6 +1,7 @@
 package home;
 
 import base.CommonAPI;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -47,9 +48,15 @@ public class YoutubeRed extends CommonAPI {
     @FindBy(xpath = "//a[contains(@href,'overview&hl=en')]")
     WebElement learnmore;
 
+    @FindBy(xpath = "//a[contains(.,'Restrictions apply. Learn more here.')]")
+    WebElement restr;
+
+    @FindBy(xpath = "//a[@id='id-already-subscribed']")
+    WebElement moreads;
+
     public void freeTrial() throws InterruptedException {
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -62,7 +69,7 @@ public class YoutubeRed extends CommonAPI {
 
     public void faq() throws InterruptedException {
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -71,10 +78,9 @@ public class YoutubeRed extends CommonAPI {
         faqred.click();
         Thread.sleep(3000);
     }
-
     public void familyMembership() throws InterruptedException {
         signIn.click();
-        //ads.click();
+        ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
@@ -85,5 +91,20 @@ public class YoutubeRed extends CommonAPI {
         learnmore.click();
         driver.switchTo().defaultContent();
         familyfree.click();
+    }
+    public void restrictions() throws InterruptedException{
+        signIn.click();
+        ads.click();
+        email.sendKeys("ytest1278@gmail.com");
+        nextButton.click();
+        password.sendKeys("youtubeTestRunner");
+        passnextButtom.click();
+        //moreads.click();
+        youtubeRed.click();
+        restr.click();
+        Thread.sleep(3000);
+//        Alert alt = driver.switchTo().alert();
+//        alt.accept();
+        driver.switchTo().alert().dismiss();
     }
 }

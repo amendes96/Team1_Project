@@ -18,6 +18,7 @@
         <module>HealthFirst</module>
         <module>SallieMae</module>
         <module>CitiBank</module>
+        <module>W3schools</module>
     </modules>
 
     <dependencyManagement>

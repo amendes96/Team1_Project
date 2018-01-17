@@ -20,4 +20,14 @@ public class TestYoutubeRed extends CommonAPI {
         faqytred.faq();
         ((JavascriptExecutor)driver).executeScript("scroll(0,4000)");
     }
+    @Test(priority = 3)
+    public void testfamilymembership() throws InterruptedException{
+        YoutubeRed fam = PageFactory.initElements(driver, YoutubeRed.class);
+        fam.familyMembership();
+    }
+    @Test(priority = 4)
+    public void testrestrictions() throws InterruptedException{
+        YoutubeRed rest = PageFactory.initElements(driver, YoutubeRed.class);
+        rest.restrictions();
+    }
 }

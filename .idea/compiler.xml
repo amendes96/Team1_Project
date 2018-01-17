@@ -14,6 +14,7 @@
         <module name="HuffingtonPost" />
         <module name="SallieMae" />
         <module name="Tesla" />
+        <module name="W3schools" />
         <module name="Youtube" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,7 @@
       <module name="OrgProjectTeam1" target="1.8" />
       <module name="SallieMae" target="1.8" />
       <module name="Tesla" target="1.8" />
+      <module name="W3schools" target="1.8" />
       <module name="Youtube" target="1.8" />
     </bytecodeTargetLevel>
   </component>

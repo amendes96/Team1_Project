@@ -60,7 +60,7 @@ public class SubscribeForNews {
     @FindBy(xpath = "//input[@value='Subscribe']")
     WebElement subscribebttn;
 
-    public void subscribe() throws InterruptedException {
+    public void subscribetoall() throws InterruptedException {
         email.click();
         trackHate.click();
         theMorningEmail.click();
@@ -80,4 +80,58 @@ public class SubscribeForNews {
         enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
         Thread.sleep(3000);
     }
+    public void subtomorningemail()throws InterruptedException{
+        email.click();
+        theMorningEmail.click();
+        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+        Thread.sleep(3000);
+    }
+    public void subtogoodlife()throws InterruptedException{
+        email.click();
+        goodLife.click();
+        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+        Thread.sleep(3000);
+    }
+    public void subtoentertainment()throws InterruptedException{
+        email.click();
+        entertainmentCat.click();
+        entertainmentCat.isDisplayed();
+        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+        Thread.sleep(3000);
+    }
+    public void subtofunniesttweets()throws InterruptedException{
+        email.click();
+        funniestTweets.isDisplayed();
+        funniestTweets.click();
+        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+        Thread.sleep(3000);
+    }
+    public void subtopolitics()throws InterruptedException{
+        email.click();
+        politicsCat.click();
+        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+        Thread.sleep(3000);
+    }
+    public void subtoinformation()throws InterruptedException{
+        email.click();
+        information.click();
+        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+        Thread.sleep(3000);
+    }
+    public void subtonewworld()throws InterruptedException{
+        email.click();
+        newWorld.click();
+        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+        Thread.sleep(3000);
+    }
+    public void subtoroyalnews()throws InterruptedException{
+        email.click();
+        royaPost.click();
+        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+        Thread.sleep(3000);
+    }
 }
+//          email.click();
+//
+//        enteremail.sendKeys("abcd1234@gmail.com", Keys.ENTER);
+//        Thread.sleep(3000);

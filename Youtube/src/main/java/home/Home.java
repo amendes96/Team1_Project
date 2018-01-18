@@ -3,6 +3,7 @@ package home;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class Home extends CommonAPI{
 
@@ -63,6 +64,7 @@ public class Home extends CommonAPI{
     }
 
     public void history() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -74,6 +76,7 @@ public class Home extends CommonAPI{
         Thread.sleep(5000);
     }
     public void trendingpage() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -84,6 +87,7 @@ public class Home extends CommonAPI{
         Thread.sleep(5000);
     }
     public void subs() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -94,6 +98,7 @@ public class Home extends CommonAPI{
         Thread.sleep(3000);
     }
     public void browsingch()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -104,6 +109,7 @@ public class Home extends CommonAPI{
         Thread.sleep(2000);
     }
     public void youtubered() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -114,6 +120,7 @@ public class Home extends CommonAPI{
         Thread.sleep(3000);
     }
     public void movies() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -124,6 +131,7 @@ public class Home extends CommonAPI{
         Thread.sleep(3000);
     }
     public void youtubesettings() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -134,6 +142,7 @@ public class Home extends CommonAPI{
         Thread.sleep(300);
     }
     public void utubehlp()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -144,6 +153,7 @@ public class Home extends CommonAPI{
         helpbttn.getLocation();
     }
     public void accountinfo() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");

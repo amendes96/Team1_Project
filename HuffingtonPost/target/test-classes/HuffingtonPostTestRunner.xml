@@ -13,7 +13,9 @@
         <classes>
             <!--<class name="testcaseshuff.TestHomePage"/>-->
             <!--<class name="testcaseshuff.TestMenuBar"/>-->
-            <class name="testcaseshuff.TestSubscribeNews"/>
+            <!--<class name="testcaseshuff.TestSubscribeNews"/>-->
+            <!--<class name="testcaseshuff.TestPoliticsCategory"/>-->
+            <class name="testcaseshuff.TestNews"/>
         </classes>
     </test>
 </suite>

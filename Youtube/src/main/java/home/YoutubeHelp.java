@@ -1,10 +1,13 @@
 package home;
 
 import base.CommonAPI;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.security.Credentials;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
-public class YoutubeHelp {
+public class YoutubeHelp extends CommonAPI{
 
     @FindBy(xpath = "//span[contains(.,'Help')]")
     WebElement helpbttn;
@@ -28,6 +31,7 @@ public class YoutubeHelp {
     WebElement search4help;
 
     public void help() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();

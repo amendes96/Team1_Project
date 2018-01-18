@@ -1,9 +1,10 @@
 package home;
 
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class InvalidPassword {
+public class InvalidPassword extends CommonAPI{
 
     @FindBy(id = "text")
     WebElement signIn;

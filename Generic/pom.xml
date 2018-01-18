@@ -33,10 +33,6 @@
             <artifactId>poi</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-        </dependency>
-        <dependency>
         <groupId>com.relevantcodes</groupId>
         <artifactId>extentreports</artifactId>
         </dependency>

@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 195.756 s <<< FAILURE! - in TestSuite
+testBusiness(testcaseshuff.TestNews)  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.NoSuchMethodError: testcaseshuff.TestNews.convertToString(Ljava/lang/String;)Ljava/lang/String;
+	at testcaseshuff.TestNews.testBusiness(TestNews.java:38)
+
+testHighline(testcaseshuff.TestNews)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NoSuchMethodError: testcaseshuff.TestNews.convertToString(Ljava/lang/String;)Ljava/lang/String;
+	at testcaseshuff.TestNews.testHighline(TestNews.java:26)
+
+testUsNews(testcaseshuff.TestNews)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NoSuchMethodError: testcaseshuff.TestNews.convertToString(Ljava/lang/String;)Ljava/lang/String;
+	at testcaseshuff.TestNews.testUsNews(TestNews.java:14)
+
+testWeirdNews(testcaseshuff.TestNews)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NoSuchMethodError: testcaseshuff.TestNews.convertToString(Ljava/lang/String;)Ljava/lang/String;
+	at testcaseshuff.TestNews.testWeirdNews(TestNews.java:50)
+
+testWorldnews(testcaseshuff.TestNews)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NoSuchMethodError: testcaseshuff.TestNews.convertToString(Ljava/lang/String;)Ljava/lang/String;
+	at testcaseshuff.TestNews.testWorldnews(TestNews.java:20)
+
+testcrime(testcaseshuff.TestNews)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: testcaseshuff.TestNews.convertToString(Ljava/lang/String;)Ljava/lang/String;
+	at testcaseshuff.TestNews.testcrime(TestNews.java:32)
+
+testscope(testcaseshuff.TestNews)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NoSuchMethodError: testcaseshuff.TestNews.convertToString(Ljava/lang/String;)Ljava/lang/String;
+	at testcaseshuff.TestNews.testscope(TestNews.java:56)
+
+testtech(testcaseshuff.TestNews)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NoSuchMethodError: testcaseshuff.TestNews.convertToString(Ljava/lang/String;)Ljava/lang/String;
+	at testcaseshuff.TestNews.testtech(TestNews.java:44)
+

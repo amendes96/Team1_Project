@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef8a0cf-9b18-458f-a313-3c6731778e60" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/HuffingtonPost/src/main/java/news/News.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HuffingtonPost/src/main/java/politics/PoltitcsCategory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestNews.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestPoliticsCategory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/ItemsToBeSearched.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" />
-      <change beforePath="$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" afterPath="$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/HuffingtonPost/target/test-classes/HuffingtonPostTestRunner.xml" afterPath="$PROJECT_DIR$/HuffingtonPost/target/test-classes/HuffingtonPostTestRunner.xml" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" afterPath="$PROJECT_DIR$/Generic/pom.xml" />
       <change beforePath="$PROJECT_DIR$/HuffingtonPostExtent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/HuffingtonPostExtent-Report/ExtentReport.html" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/FeedbackYoutube.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/FeedbackYoutube.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/Home.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/Home.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidEmail.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidEmail.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidPassword.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidPassword.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/SearchClass.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/SearchClass.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/ValidSignIn.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/ValidSignIn.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeHelp.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeHelp.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeSettings.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeSettings.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestYoutubeRed.java" afterPath="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestYoutubeRed.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/FeedbackYoutube.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/FeedbackYoutube.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/Home.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/Home.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/InvalidEmail.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/InvalidEmail.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/InvalidPassword.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/InvalidPassword.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/SearchClass.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/SearchClass.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/ValidSignIn.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/ValidSignIn.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/YoutubeHelp.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/YoutubeHelp.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/YoutubeRed.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/YoutubeRed.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/YoutubeSettings.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/YoutubeSettings.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/testcasesyoutube/TestYoutubeRed.class" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/testcasesyoutube/TestYoutubeRed.class" />
-      <change beforePath="$PROJECT_DIR$/YoutubeExtent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/YoutubeExtent-Report/ExtentReport.html" />
+      <change beforePath="$PROJECT_DIR$/W3schools/W3schools.iml" afterPath="$PROJECT_DIR$/W3schools/W3schools.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -76,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/politics/PoltitcsCategory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/news/News.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="120" column="54" lean-forward="true" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
+              <caret line="120" column="54" lean-forward="false" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,11 +78,31 @@
       <file leaf-file-name="TestNews.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/home/MenuBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
+              <caret line="9" column="24" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -166,14 +153,12 @@
         <option value="$PROJECT_DIR$/CitiBank/src/test/java/testcases/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestSearch.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/resources/client_secret/json.java" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleApi/SheetReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleApi/GoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Generic/src/main/resources/client_id.json" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/Testvalidsignin.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/test/resources/CitibankTestRunner.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestingHome.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/main/java/home/SubscribeForNews.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestSubscribeNews.java" />
@@ -200,6 +185,8 @@
         <option value="$PROJECT_DIR$/HuffingtonPost/src/main/java/news/USNews.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/main/java/news/News.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestNews.java" />
       </list>
     </option>
@@ -257,6 +244,11 @@
             <path>
               <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrgProjectTeam1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrgProjectTeam1" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OrgProjectTeam1" type="b2602c69:ProjectViewProjectNode" />
@@ -668,7 +660,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -678,7 +669,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614556" sideWeight="0.51540434" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18806162" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32614556" sideWeight="0.48459563" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614556" sideWeight="0.48459563" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -808,14 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/Testvalidsignin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -827,13 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1027,7 +1003,7 @@
     <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/home/MenuBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
+          <caret line="9" column="24" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1035,7 +1011,7 @@
     <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/politics/PoltitcsCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1071,7 +1047,7 @@
     <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/news/News.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="120" column="54" lean-forward="true" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
+          <caret line="120" column="54" lean-forward="false" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1081,15 +1057,31 @@
     <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="254">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

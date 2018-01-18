@@ -20,6 +20,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class GoogleSheetReader {
+
+    private static final String KEY_ = "AIzaSyAxaRXPV7vA_4dwGeTvxYKdKVA2V1T1He8"; //= API_KEY();
     // Application name.
     private static final String APPLICATION_NAME = "Google Sheets API Java GoogleSheetReader";
     // Directory to store user credentials for this application.

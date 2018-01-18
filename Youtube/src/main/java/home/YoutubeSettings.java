@@ -1,10 +1,12 @@
 package home;
 
+import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
-public class YoutubeSettings {
+public class YoutubeSettings extends CommonAPI{
 
     @FindBy(id = "text")
     WebElement signIn;
@@ -37,6 +39,7 @@ public class YoutubeSettings {
     WebElement createch;
 
     public void sttgs()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();

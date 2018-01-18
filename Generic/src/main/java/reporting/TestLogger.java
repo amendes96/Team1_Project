@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 
 public class TestLogger {
-
     public static void log(final String message){
         Reporter.log(message,true);
         ExtentTestManager.getTest().log(LogStatus.INFO, message + "<br>");

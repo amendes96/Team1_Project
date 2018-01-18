@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class YoutubeRed extends CommonAPI {
 
@@ -55,6 +56,7 @@ public class YoutubeRed extends CommonAPI {
     WebElement moreads;
 
     public void freeTrial() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -68,6 +70,7 @@ public class YoutubeRed extends CommonAPI {
     }
 
     public void faq() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -79,6 +82,7 @@ public class YoutubeRed extends CommonAPI {
         Thread.sleep(3000);
     }
     public void familyMembership() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
@@ -93,12 +97,14 @@ public class YoutubeRed extends CommonAPI {
         familyfree.click();
     }
     public void restrictions() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");
         passnextButtom.click();
+        driver.navigate().refresh();
         //moreads.click();
         youtubeRed.click();
         restr.click();

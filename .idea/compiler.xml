@@ -21,7 +21,6 @@
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
       <module name="CitiBank" target="1.8" />
-      <module name="CNN" target="1.8" />
       <module name="Facebook" target="1.8" />
       <module name="Generic" target="1.8" />
       <module name="HealthFirst" target="1.8" />

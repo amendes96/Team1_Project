@@ -1,9 +1,11 @@
 package home;
 
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
-public class FeedbackYoutube {
+public class FeedbackYoutube extends CommonAPI{
 
     @FindBy(id = "text")
     WebElement signIn;
@@ -33,6 +35,7 @@ public class FeedbackYoutube {
     WebElement giveFdback;
 
     public void sndfeedback(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         //ads.click();
         email.sendKeys("ytest1278@gmail.com");

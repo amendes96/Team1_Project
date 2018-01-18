@@ -1,9 +1,11 @@
 package home;
 
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
-public class InvalidEmail {
+public class InvalidEmail extends CommonAPI{
 
     @FindBy(id = "text")
     WebElement signIn;
@@ -25,6 +27,7 @@ public class InvalidEmail {
 
 
     public void invalidlogin() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
         ads.click();
         email.sendKeys("ytest12789@gmail.com");

@@ -193,8 +193,8 @@ public class CommonAPI {
     public void takeEnterKeysbyXpath(String locator) {
         driver.findElement(By.xpath(locator)).sendKeys(Keys.ENTER);
     }
-    public void takeEnterKeysbyID(String locator) {
-        driver.findElement(By.id(locator)).sendKeys(Keys.ENTER);
+    public void takeEnterKeysbyID(String locator,String value) {
+        driver.findElement(By.id(locator)).sendKeys(value,Keys.ENTER);
     }
     public void takeEnterKeysbyName(String locator) {
         driver.findElement(By.name(locator)).sendKeys(Keys.ENTER);

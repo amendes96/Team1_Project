@@ -4,6 +4,8 @@ import base.CommonAPI;
 import com.google.api.services.sheets.v4.model.*;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -29,9 +31,11 @@ public class GoogleSheets extends CommonAPI{
         List<String> actual = new ArrayList<>();
         for (List row : values) {
             Thread.sleep(2000);
-            typeByID("search", row.get(1).toString());
+            takeEnterKeysbyID("search", row.get(1).toString());
+            actual.add(getTextByXpath("//*[text()='"+row.get(1).toString()+"']"));
             Thread.sleep(2000);
-            clearInputbyID("search");
+           driver.findElement(By.id("search")).sendKeys(Keys.chord(Keys.CONTROL, "a"),Keys.BACK_SPACE);
+            //clearInputbyID("search");
             Thread.sleep(2000);
         }
         return actual;

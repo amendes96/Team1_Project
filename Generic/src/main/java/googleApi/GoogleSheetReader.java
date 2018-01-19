@@ -21,7 +21,7 @@ import java.util.List;
 
 public class GoogleSheetReader {
 
-    private static final String KEY_ = "AIzaSyAxaRXPV7vA_4dwGeTvxYKdKVA2V1T1He8"; //= API_KEY();
+    //private static final String KEY_ = "AIzaSyAxaRXPV7vA_4dwGeTvxYKdKVA2V1T1He8"; //= API_KEY();
     // Application name.
     private static final String APPLICATION_NAME = "Google Sheets API Java GoogleSheetReader";
     // Directory to store user credentials for this application.
@@ -34,7 +34,6 @@ public class GoogleSheetReader {
     private static HttpTransport HTTP_TRANSPORT;
     // Global instance of the scopes
     private static final List<String> SCOPES = Arrays.asList(SheetsScopes.SPREADSHEETS_READONLY);
-
     static {
         try {
             HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();

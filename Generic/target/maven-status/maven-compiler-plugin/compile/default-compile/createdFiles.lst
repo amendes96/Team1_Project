@@ -1,7 +1,0 @@
-util\DataReader.class
-reporting\ExtentManager.class
-reporting\ExtentTestManager.class
-reporting\ApplicationLog.class
-reporting\TestLogger.class
-util\ConnectDB.class
-base\CommonAPI.class

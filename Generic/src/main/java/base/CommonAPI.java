@@ -35,8 +35,8 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
     public static WebDriver driver = null;
-    public String browserstack_username;
-    public String browserstack_accesskey;
+    public String browserstack_username = "altonmendes2";
+    public String browserstack_accesskey = "J1vw2AtRHEpxvKXLaskd";
     public String saucelabs_username;
     public String saucelabs_accesskey;
 
@@ -193,9 +193,7 @@ public class CommonAPI {
     public void takeEnterKeysbyXpath(String locator) {
         driver.findElement(By.xpath(locator)).sendKeys(Keys.ENTER);
     }
-    public void takeEnterKeysbyID(String locator,String value) {
-        driver.findElement(By.id(locator)).sendKeys(value,Keys.ENTER);
-    }
+    public void takeEnterKeysbyID(String locator,String value) { driver.findElement(By.id(locator)).sendKeys(value,Keys.ENTER); }
     public void takeEnterKeysbyName(String locator) {
         driver.findElement(By.name(locator)).sendKeys(Keys.ENTER);
     }

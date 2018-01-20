@@ -19,6 +19,7 @@
         <module>CitiBank</module>
         <module>W3schools</module>
         <module>Youtube</module>
+        <module>BestBuy</module>
     </modules>
 
     <dependencyManagement>

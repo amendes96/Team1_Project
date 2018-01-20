@@ -94,7 +94,7 @@ public class CommonAPI {
     public WebDriver getLocalDriver(String browserName, String os) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (os.equalsIgnoreCase("windows")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\alistair\\IdeaProjects\\OrgProjectTeam1\\Generic\\driver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\SharifRafiq\\Team1_Project\\Generic\\driver\\chromedriver.exe");
                 driver = new ChromeDriver();
             } else if (os.equalsIgnoreCase("mac")) {
                 System.setProperty("webdriver.chrome.driver", "C:\\Users\\alistair\\IdeaProjects\\OrgProjectTeam1\\Generic\\driver\\chromedriver");
@@ -156,6 +156,7 @@ public class CommonAPI {
     }
 
     //to send keys by different element locators
+    public void typeByIdNEnter(String locator, String value) { driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER); }
     public void typeByxpath(String locator, String value) {
         driver.findElement(By.xpath(locator)).sendKeys(value);
     }
@@ -197,6 +198,9 @@ public class CommonAPI {
     public void typeEnterKeybyClassName(String locator, String value){ driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER); }
 
     //to clear input by different element locators
+    public void clearInputFieldById(String locator){
+        driver.findElement(By.id(locator)).clear();
+    }
     public void clearInputbyXpath(String locator){
         driver.findElement(By.xpath(locator)).clear();
     }
@@ -218,7 +222,10 @@ public class CommonAPI {
         String url = driver.getCurrentUrl();
         return url;
     }
-
+    public String getCurrentPageTitle(){
+        String title = driver.getTitle();
+        return title;
+    }
     //to navigate to the previous page
     public void navigateBack() {
         driver.navigate().back();

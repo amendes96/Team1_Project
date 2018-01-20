@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="CitiBank" parallel="none">
+<suite name="Best Buy" parallel="none">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browser_name" value="chrome"/>
     <parameter name="browserVersion" value="63.0"/>
-    <parameter name="url" value="https://online.citi.com/US/login.do"/>
+    <parameter name="url" value="https://www.bestbuy.com/"/>
 
-    <test name="Test CitiBank">
+    <test name="Best Buy Homepage Test">
         <classes>
-            <!--<class name="testcases.TestHomePage"/>-->
-            <class name="testcases.TestCreditCard"/>
+            <class name="testhomepage.TestGoogleSheets"/>
         </classes>
     </test>
 </suite>

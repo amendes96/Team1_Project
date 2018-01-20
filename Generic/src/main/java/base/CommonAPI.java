@@ -166,12 +166,8 @@ public class CommonAPI {
     public void typeByname(String locator, String value) {
         driver.findElement(By.name(locator)).sendKeys(value);
     }
-    public void typeByClassName(String locator, String value) {
-        driver.findElement(By.className(locator)).sendKeys(value);
-    }
-    public void typeByCssSlector(String locator, String value){
-        driver.findElement(By.cssSelector(locator)).sendKeys(value);
-    }
+    public void typeByClassName(String locator, String value) { driver.findElement(By.className(locator)).sendKeys(value); }
+    public void typeByCssSlector(String locator, String value){ driver.findElement(By.cssSelector(locator)).sendKeys(value); }
 
     //to click by different element locators
     public void clickByXpath(String locator) {

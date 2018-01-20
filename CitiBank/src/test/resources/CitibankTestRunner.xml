@@ -11,7 +11,7 @@
 
     <test name="Test CitiBank">
         <classes>
-            <class name="testcases.TestHomePage"/>
+            <!--<class name="testcases.TestHomePage"/>-->
             <class name="testcases.TestCreditCard"/>
         </classes>
     </test>

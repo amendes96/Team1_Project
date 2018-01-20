@@ -3,14 +3,13 @@ package googlesheetspage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 import java.io.IOException;
 import java.util.List;
 
 public class TestGoogleSheetsPage extends GoogleSheets{
 
     @Test
-    public void amzTS05TC01() throws IOException, InterruptedException {
+    public void testingSearch() throws IOException, InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         int i = 0;
         String spreadsheetId = "1wXAewskmwcB0Yid3YK2Ze-1zXyZfXMsmy-1jxlwNCY0";

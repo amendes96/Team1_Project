@@ -57,12 +57,6 @@ public class YoutubeRed extends CommonAPI {
 
     public void freeTrial() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         youtubeRed.click();
         free.click();
         Thread.sleep(3000);
@@ -71,24 +65,12 @@ public class YoutubeRed extends CommonAPI {
 
     public void faq() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         youtubeRed.click();
         faqred.click();
         Thread.sleep(3000);
     }
     public void familyMembership() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         youtubeRed.click();
         family.click();
         Thread.sleep(3000);
@@ -98,14 +80,7 @@ public class YoutubeRed extends CommonAPI {
     }
     public void restrictions() throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         driver.navigate().refresh();
-        //moreads.click();
         youtubeRed.click();
         restr.click();
         Thread.sleep(3000);

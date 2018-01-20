@@ -46,8 +46,29 @@ public class Home extends CommonAPI{
     @FindBy(xpath = "//span[contains(.,'YouTube Red')]")
     WebElement youtubeRed;
 
-    @FindBy(xpath = "//span[contains(.,'YouTube Movies')]")
+    @FindBy(xpath = "//span[contains(.,'Movies')]")
     WebElement youtubemovies;
+
+    @FindBy(xpath = "//span[contains(.,'Sports')]")
+    WebElement sports;
+
+    @FindBy(xpath = "//span[contains(.,'Gaming')]")
+    WebElement gaming;
+
+    @FindBy(xpath = "//span[contains(.,'TV Shows')]")
+    WebElement tvShows;
+
+    @FindBy(xpath = "//span[contains(.,'News')]")
+    WebElement news;
+
+    @FindBy(xpath = "//span[contains(.,'Live')]")
+    WebElement live;
+
+    @FindBy(xpath = "//span[contains(.,'Spotlight')]")
+    WebElement spotlight;
+
+    @FindBy(xpath = "//span[contains(.,'360° Video')]")
+    WebElement threesixtyvideo;
 
     @FindBy(xpath = "//span[contains(.,'Settings')]")
     WebElement settings;
@@ -65,101 +86,48 @@ public class Home extends CommonAPI{
 
     public void history() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         //menubutton.click(); //menu button is only for running on cloud server
         history.click();
         Thread.sleep(5000);
     }
     public void trendingpage() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         trending.click();
         Thread.sleep(5000);
     }
     public void subs() throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         subscription.click();
         Thread.sleep(3000);
     }
     public void browsingch()throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         browseCh.click();
         Thread.sleep(2000);
     }
     public void youtubered() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         youtubeRed.click();
         Thread.sleep(3000);
     }
     public void movies() throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         youtubemovies.click();
         Thread.sleep(3000);
     }
     public void youtubesettings() throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         settings.click();
-        Thread.sleep(300);
+        Thread.sleep(3000);
     }
     public void utubehlp()throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         helpbttn.click();
         helpbttn.getLocation();
+        Thread.sleep(2000);
     }
     public void accountinfo() throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        signIn.click();
-        ads.click();
-        email.sendKeys("ytest1278@gmail.com");
-        nextButton.click();
-        password.sendKeys("youtubeTestRunner");
-        passnextButtom.click();
         account.click();
         Thread.sleep(2000);
     }

@@ -12,6 +12,7 @@
         <module name="Generic" />
         <module name="HealthFirst" />
         <module name="HuffingtonPost" />
+        <module name="RestAPI" />
         <module name="SallieMae" />
         <module name="Tesla" />
         <module name="W3schools" />
@@ -26,6 +27,8 @@
       <module name="HealthFirst" target="1.8" />
       <module name="HuffingtonPost" target="1.8" />
       <module name="OrgProjectTeam1" target="1.8" />
+      <module name="RestApi" target="1.8" />
+      <module name="RestAPI" target="1.8" />
       <module name="SallieMae" target="1.8" />
       <module name="Tesla" target="1.8" />
       <module name="W3schools" target="1.8" />

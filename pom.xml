@@ -8,6 +8,7 @@
     <artifactId>OrgProjectTeam1</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>Generic</module>
         <module>Amazon</module>
@@ -19,6 +20,7 @@
         <module>CitiBank</module>
         <module>W3schools</module>
         <module>Youtube</module>
+        <module>RestAPI</module>
     </modules>
 
     <dependencyManagement>
@@ -82,6 +84,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.20.1</version>
+            </dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>3.0.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

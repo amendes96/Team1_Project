@@ -1,7 +1,7 @@
 package testcasesyoutube;
 
 import base.CommonAPI;
-import home.FeedbackYoutube;
+import pageobject.FeedbackYoutube;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 

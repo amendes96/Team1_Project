@@ -1,7 +1,7 @@
 package testcaseshuff;
 
 import base.CommonAPI;
-import home.SubscribeForNews;
+import pageobject.SubscribeForNews;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 

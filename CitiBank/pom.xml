@@ -28,7 +28,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <!--this is to run our testcases by maven-->
+            <!--this is to run our testpageobject by maven-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

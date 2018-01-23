@@ -11,7 +11,8 @@
 
     <test name="Best Buy Homepage Test">
         <classes>
-            <class name="testhomepage.TestGoogleSheets"/>
+            <!--<class name="testdatadriven.TestGoogleSheets"/>-->
+            <class name="testpageobject.TestHomePage"/>
         </classes>
     </test>
 </suite>

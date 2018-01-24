@@ -29,7 +29,7 @@ public class InvalidEmail extends CommonAPI{
     public void invalidlogin() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
-        ads.click();
+        //ads.click();
         email.sendKeys("ytest12789@gmail.com");
         nextButton.click();
         Thread.sleep(3000);

@@ -21,7 +21,6 @@ public class InvalidPassword extends CommonAPI{
     @FindBy(id = "passwordNext")
     WebElement passnextButtom;
 
-
     public void invalidpass() throws InterruptedException {
         signIn.click();
         email.sendKeys("ytest1278@gmail.com");

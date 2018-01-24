@@ -29,7 +29,7 @@ public class ValidSignIn extends CommonAPI{
     public void login() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn.click();
-        ads.click();
+        //ads.click();
         email.sendKeys("ytest1278@gmail.com");
         nextButton.click();
         password.sendKeys("youtubeTestRunner");

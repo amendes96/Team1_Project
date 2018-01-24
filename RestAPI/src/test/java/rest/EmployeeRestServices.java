@@ -13,7 +13,8 @@ public class EmployeeRestServices {
                 then().statusCode(200).extract().response();
         String status = response.getStatusLine();
         String body = response.getBody().print();
-        Assert.assertEquals(response, 200);
+        //Assert.assertEquals(response, 200);
+        System.out.println("-----------------------------");
     }
     @Test
     public static void apiCallResponseSingle() {

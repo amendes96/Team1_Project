@@ -4,7 +4,6 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import reporting.TestLogger;
 
 import java.io.IOException;
@@ -30,7 +29,7 @@ public class SearchClass extends CommonAPI{
         ItemsToBeSearched itemsToBeSearched = new ItemsToBeSearched();
         String [] value = itemsToBeSearched.getDataFromExcelFile();
         for(int i=0; i<value.length; i++) {
-            sleepFor(1);
+            Thread.sleep(2000);
             searchFor(value[i]);
             Thread.sleep(2000);
             submitSearch();

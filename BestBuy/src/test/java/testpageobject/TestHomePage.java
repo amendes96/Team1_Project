@@ -1,6 +1,4 @@
 package testpageobject;
-
-import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -9,7 +7,6 @@ import pageobject.HomePage;
 
 public class TestHomePage extends HomePage {
     HomePage homePage;
-
     @BeforeMethod
     public void initializePageFactory(){
         homePage = PageFactory.initElements(driver, HomePage.class);
@@ -42,6 +39,24 @@ public class TestHomePage extends HomePage {
     @Test(enabled = false)
     public void isStoreLocatorDisplayedTest(){
         boolean yes = homePage.isStoreLocatorDisplayed();
-        Assert.assertTrue(yes);
+        Assert.assertEquals(yes,true,"Store Locator not Displayed");
     }
+    @Test(enabled = false)
+    public void isProfileMenuEnableTest(){
+        boolean enable = homePage.isProfileMenuEnable();
+        Assert.assertEquals(enable, true);
+    }
+    @Test(enabled = false)
+    public void verifyWeeklyAddLink(){
+        homePage.clickOnWeeklyAddLink();
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals(currentUrl,"https://deals.bestbuy.com/?category=featured+deals");
+    }
+    @Test(enabled = false)
+    public  void VerifyDealOfTheDayLink(){
+        homePage.clickOnDealOfTheDayLink();
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "Deal of the Day: Electronics Deals - Best Buy", "Deal of the Day Page Title not matched");
+    }
+
 }

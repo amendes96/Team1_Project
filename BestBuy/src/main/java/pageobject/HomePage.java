@@ -4,7 +4,6 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
 
 public class HomePage extends CommonAPI {
 
@@ -19,7 +18,7 @@ public class HomePage extends CommonAPI {
     @FindBy(id = "profileMenuWrap1")
     WebElement profileMenu;
     @FindBy(xpath = "//a[contains(text(),'Weekly Ad')]")
-    WebElement weeklyAdd;
+    WebElement  weeklyAdd;
     @FindBy(xpath = "//a[contains(text(),'Deal of the Day')]")
     WebElement dealOfTheDay;
     @FindBy(xpath = "//a[contains(text(),'Credit Cards')]")
@@ -28,7 +27,6 @@ public class HomePage extends CommonAPI {
     WebElement giftCards;
     @FindBy(xpath = "//a[contains(text(),'Gift Ideas & Registry')]")
     WebElement giftIdeasNRegistry;
-
 
     public boolean validateLogo(){
         return logo.isDisplayed();
@@ -56,9 +54,20 @@ public class HomePage extends CommonAPI {
         boolean profile = profileMenu.isEnabled();
         return profile;
     }
-    public WeeklyAddPage clickOnWeeklyAdd(){
+    public  void clickOnWeeklyAddLink(){
         weeklyAdd.click();
-        String currentUrl = driver.getCurrentUrl();
-        return new WeeklyAddPage();
+    }
+    public  void clickOnDealOfTheDayLink(){
+        dealOfTheDay.click();
+    }
+    public  CreditCards clickOnCreditCardsLink(){
+        creditCards.click();
+        return new CreditCards();
+    }
+    public  void clickOnGiftCardsLink(){
+        giftCards.click();
+    }
+    public  void clickOnGiftIdeasNRegistryLink(){
+        giftIdeasNRegistry.click();
     }
 }

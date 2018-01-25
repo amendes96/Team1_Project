@@ -12,7 +12,10 @@
     <test name="Best Buy Homepage Test">
         <classes>
             <!--<class name="testdatadriven.TestGoogleSheets"/>-->
-            <class name="testpageobject.TestHomePage"/>
+            <!--<class name="testpageobject.TestHomePage"/>-->
+            <!--<class name="testpageobject.TestCreditCards"/>-->
+            <class name="testkeyworddriven.SignUpTest"/>
+
         </classes>
     </test>
 </suite>

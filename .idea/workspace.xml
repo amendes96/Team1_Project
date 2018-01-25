@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef8a0cf-9b18-458f-a313-3c6731778e60" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/HuffingtonPost/src/main/java/entertainment/Entertainment.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HuffingtonPost/src/test/java/testentertainment/TestingEntertainment.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/amazonTestRunner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" afterPath="$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" />
       <change beforePath="$PROJECT_DIR$/HuffingtonPostExtent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/HuffingtonPostExtent-Report/ExtentReport.html" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/pom.xml" afterPath="$PROJECT_DIR$/RestAPI/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/src/test/java/rest/EmployeeRestServices.java" afterPath="$PROJECT_DIR$/RestAPI/src/test/java/rest/EmployeeRestServices.java" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/target/test-classes/rest/EmployeeRestServices.class" afterPath="$PROJECT_DIR$/RestAPI/target/test-classes/rest/EmployeeRestServices.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/.credentials/sheets-googleapis/StoredCredential" afterPath="$PROJECT_DIR$/Youtube/.credentials/sheets-googleapis/StoredCredential" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidEmail.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidEmail.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidPassword.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidPassword.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/home/ValidSignIn.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/home/ValidSignIn.java" />
-      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/search/SearchClass.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/search/SearchClass.java" />
+      <change beforePath="$PROJECT_DIR$/Youtube/.credentials/sheets-googleapis/StoredCredential" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/googlesheetspage/GoogleSheets.java" afterPath="$PROJECT_DIR$/Youtube/src/main/java/googlesheetspage/GoogleSheets.java" />
       <change beforePath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/InvalidEmail.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/InvalidEmail.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/ValidSignIn.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/ValidSignIn.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/search/SearchClass$1.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/search/SearchClass$1.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/search/SearchClass$2.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/search/SearchClass$2.class" />
-      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/search/SearchClass.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/search/SearchClass.class" />
+      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/googlesheetspage/GoogleSheets.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/googlesheetspage/GoogleSheets.class" />
+      <change beforePath="$PROJECT_DIR$/Youtube/target/classes/home/InvalidPassword.class" afterPath="$PROJECT_DIR$/Youtube/target/classes/home/InvalidPassword.class" />
       <change beforePath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" afterPath="$PROJECT_DIR$/Youtube/target/test-classes/YoutubeTestRunner.xml" />
       <change beforePath="$PROJECT_DIR$/YoutubeExtent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/YoutubeExtent-Report/ExtentReport.html" />
     </list>
@@ -48,48 +35,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ValidSignIn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/ValidSignIn.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="-466">
+              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvalidEmail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/InvalidEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvalidPassword.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/InvalidPassword.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoutubeHelp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeHelp.java">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/home/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedbackYoutube.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/FeedbackYoutube.java">
+      <file leaf-file-name="TestHomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -98,58 +65,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Entertainment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/entertainment/Entertainment.java">
+      <file leaf-file-name="TestNews.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestingEntertainment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testentertainment/TestingEntertainment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HuffingtonPostTestRunner.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HuffingtonPostTestRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmployeeRestServices.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/EmployeeRestServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="1800">
+              <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/search/SearchClass.java">
+      <file leaf-file-name="GoogleSheetReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleApi/GoogleSheetReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="137">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoutubeRed.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,17 +184,14 @@
         <option value="$PROJECT_DIR$/HuffingtonPost/src/main/java/politics/PoltitcsCategory.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestPoliticsCategory.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/main/java/news/USNews.java" />
-        <option value="$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestNews.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/home/ItemsToBeSearched.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/search/ItemsToBeSearched.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestSearch.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/resources/client_id.json" />
-        <option value="$PROJECT_DIR$/Youtube/src/main/java/googlesheetspage/GoogleSheets.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/main/java/news/News.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/main/java/life/Life.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestingHome.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/home/Home.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleApi/GoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
@@ -226,13 +204,16 @@
         <option value="$PROJECT_DIR$/RestAPI/pom.xml" />
         <option value="$PROJECT_DIR$/RestAPI/src/test/java/rest/EmployeeRestServices.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/search/SearchClass.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/home/ValidSignIn.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidEmail.java" />
         <option value="$PROJECT_DIR$/Youtube/src/main/java/home/InvalidPassword.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/main/java/entertainment/Entertainment.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/test/java/testentertainment/TestingEntertainment.java" />
         <option value="$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Youtube/src/main/java/googlesheetspage/GoogleSheets.java" />
+        <option value="$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestNews.java" />
+        <option value="$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java" />
       </list>
     </option>
   </component>
@@ -274,6 +255,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,10 +270,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -576,9 +557,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/RestAPI/src/test/resources/RestAPITestRunner.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/RestAPI/src/test/resources/RestAPITestRunner.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.EmployeeRestServices.apiCallResponse" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/alistair/IdeaProjects/OrgProjectTeam1/W3schools/src/test/resources/W3schoolTestRunner.xml" />
       </list>
@@ -601,16 +582,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_HuffingtonPost_src_test_resources_HuffingtonPostTestRunner_xml - 2018.01.23 at 21h 45m 53s.xml">
-      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_RestAPI_src_test_resources_RestAPITestRunner_xml - 2018.01.21 at 16h 43m 13s.xml">
-      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_RestAPI_src_test_resources_RestAPITestRunner_xml - 2018.01.21 at 16h 49m 02s.xml">
       <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_RestAPI_src_test_resources_RestAPITestRunner_xml - 2018.01.21 at 16h 49m 42s.xml">
+      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_RestAPI_src_test_resources_RestAPITestRunner_xml - 2018.01.24 at 12h 56m 32s.xml">
       <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.21 at 15h 46m 53s.xml">
@@ -628,6 +606,9 @@
     <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.22 at 14h 38m 17s.xml">
       <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_alistair_IdeaProjects_OrgProjectTeam1_Youtube_src_test_resources_YoutubeTestRunner_xml - 2018.01.24 at 13h 54m 42s.xml">
+      <configuration name="C:/Users/alistair/IdeaProjects/OrgProjectTeam1/Youtube/src/test/resources/YoutubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="EmployeeRestServices_apiCallResponse - 2018.01.21 at 16h 23m 51s.xml">
       <configuration name="EmployeeRestServices.apiCallResponse" configurationId="TestNG" />
     </history-entry>
@@ -637,18 +618,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.48973042" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33962265" sideWeight="0.51797175" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13286264" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33962265" sideWeight="0.48202825" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33962265" sideWeight="0.48202825" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1745828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17971759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -659,6 +639,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.48973042" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -684,111 +665,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestingHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestInvalidEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HuffingtonPost/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/googlesheetspage/GoogleSheets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/pageobject/FBLogo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/pageobject/FBMenuExtra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/pageobject/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testcases/TestBirthdayHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testcases/TestDropDownMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testcases/TestLogingPageMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/pageobject/DropDownMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testcases/TestFBMenuExtra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22">
@@ -875,69 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/EmployeeRestServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RestAPI/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="95" column="11" lean-forward="false" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/resources/RestAPITestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/search/ItemsToBeSearched.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleApi/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/googlesheetspage/TestGoogleSheetsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,21 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/search/SearchClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/InvalidEmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,15 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,15 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="102" column="46" lean-forward="false" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,42 +805,227 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/entertainment/Entertainment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="936">
+          <caret line="55" column="20" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testentertainment/TestingEntertainment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestSubscribeNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="720">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestPoliticsCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/resources/RestAPITestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_60/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074">
+          <caret line="113" column="31" lean-forward="true" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/search/ItemsToBeSearched.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/googlesheetspage/GoogleSheets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/search/SearchClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/googlesheetspage/TestGoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="102" column="46" lean-forward="false" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/testcasesyoutube/TestingHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="31" column="73" lean-forward="false" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/main/java/home/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/java/testcaseshuff/TestNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/ExtentReports.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/home/YoutubeRed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleApi/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/EmployeeRestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HuffingtonPost/src/test/resources/HuffingtonPostTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding />
         </state>
       </provider>

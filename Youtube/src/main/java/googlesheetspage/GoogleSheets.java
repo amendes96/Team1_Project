@@ -26,6 +26,7 @@ public class GoogleSheets extends CommonAPI{
             return values;
         }
     }
+
     public List<String> searchItemByName(String spreadsheetId, String range) throws IOException, InterruptedException {
         List<List<Object>> values = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();
@@ -35,9 +36,9 @@ public class GoogleSheets extends CommonAPI{
             actual.add(getTextByXpath("//*[text()='"+row.get(1).toString()+"']"));
             Thread.sleep(2000);
            driver.findElement(By.id("search")).sendKeys(Keys.chord(Keys.CONTROL, "a"),Keys.BACK_SPACE);
-            //clearInputbyID("search");
             Thread.sleep(2000);
         }
         return actual;
     }
 }
+

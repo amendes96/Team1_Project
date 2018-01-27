@@ -1,7 +1,7 @@
 package testcasesyoutube;
 
 import base.CommonAPI;
-import home.InvalidPassword;
+import pageobject.InvalidPassword;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 

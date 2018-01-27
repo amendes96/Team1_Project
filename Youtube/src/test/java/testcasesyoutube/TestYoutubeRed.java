@@ -1,11 +1,10 @@
 package testcasesyoutube;
 
 import base.CommonAPI;
-import home.YoutubeRed;
+import pageobject.YoutubeRed;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 public class TestYoutubeRed extends CommonAPI {
 

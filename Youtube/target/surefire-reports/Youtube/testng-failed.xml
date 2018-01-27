@@ -10,16 +10,82 @@
   <parameter name="url" value="https://www.youtube.com/"/>
   <test verbose="0" name="Test Youtube(failed)">
     <classes>
-      <class name="googlesheetspage.TestGoogleSheetsPage">
+      <class name="testcasesyoutube.TestFeedback">
         <methods>
           <include name="tearDown"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="startExtent"/>
-          <include name="testingSearch"/>
+          <include name="testFeedback"/>
         </methods>
-      </class> <!-- googlesheetspage.TestGoogleSheetsPage -->
+      </class> <!-- testcasesyoutube.TestFeedback -->
+      <class name="testcasesyoutube.TestYoutubeHelp">
+        <methods>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="helpbutton"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testcasesyoutube.TestYoutubeHelp -->
+      <class name="testcasesyoutube.TestYoutubeRed">
+        <methods>
+          <include name="testfamilymembership"/>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="testfreetrail"/>
+          <include name="startExtent"/>
+          <include name="testrestrictions"/>
+        </methods>
+      </class> <!-- testcasesyoutube.TestYoutubeRed -->
+      <class name="testcasesyoutube.TestYoutubeSettings">
+        <methods>
+          <include name="testsettings"/>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testcasesyoutube.TestYoutubeSettings -->
+      <class name="testcasesyoutube.TestingHome">
+        <methods>
+          <include name="red"/>
+          <include name="settings"/>
+          <include name="tearDown"/>
+          <include name="testHelp"/>
+          <include name="generateReport"/>
+          <include name="testaccount"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="subscription"/>
+        </methods>
+      </class> <!-- testcasesyoutube.TestingHome -->
+      <class name="testcasesyoutube.TestSearch">
+        <methods>
+          <include name="testSearch"/>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testcasesyoutube.TestSearch -->
+      <class name="testcasesyoutube.TestInvalidEmail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="invEmail"/>
+        </methods>
+      </class> <!-- testcasesyoutube.TestInvalidEmail -->
     </classes>
   </test> <!-- Test Youtube(failed) -->
 </suite> <!-- Failed suite [Youtube] -->

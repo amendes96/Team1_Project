@@ -20,7 +20,8 @@
             <!--<class name="testcasesyoutube.TestYoutubeHelp"/>-->
             <!--<class name="testcasesyoutube.TestFeedback"/>-->
             <!--<class name="testcasesyoutube.TestYoutubeRed"/>-->
-            <class name="googlesheetspage.TestGoogleSheetsPage"/>
+            <!--<class name="googlesheetspage.TestGoogleSheetsPage"/>-->
+            <class name="googlesheetspage.TestSearchByElement"/>
         </classes>
     </test>
 </suite>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
+        <module name="Bestbuy" />
         <module name="CitiBank" />
         <module name="Facebook" />
         <module name="Generic" />
@@ -22,6 +23,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
+      <module name="Bestbuy" target="1.8" />
       <module name="CitiBank" target="1.8" />
       <module name="Facebook" target="1.8" />
       <module name="Generic" target="1.8" />

@@ -35,12 +35,5 @@ public class SearchClass extends CommonAPI{
             submitSearch();
             Thread.sleep(2000);
         }
-//        searchFor("Music");
-//        submitSearch();
-//        Thread.sleep(3000);
-//        searchBar.sendKeys(Keys.BACK_SPACE);
-//        searchBar.sendKeys(Keys.BACK_SPACE);
-//        searchBar.sendKeys("ic", Keys.ENTER);
-//        Thread.sleep(3000);
     }
 }

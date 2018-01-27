@@ -41,7 +41,7 @@ public class GoogleSheets extends CommonAPI {
         }
         return actual;
     }
-    public List<String> searchItemByBarCode(String spreadsheetId, String range) throws IOException, InterruptedException {
+    public List<String> searchBySKU(String spreadsheetId, String range) throws IOException, InterruptedException {
         List<List<Object>> values = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();
         for (List row : values) {

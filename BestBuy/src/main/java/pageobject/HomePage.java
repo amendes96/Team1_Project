@@ -9,7 +9,7 @@ public class HomePage extends CommonAPI {
 
     @FindBy(xpath = "//span[contains(.,'Best Buy Logo')]")
     WebElement logo;
-    @FindBy(css = ".search-input")
+    @FindBy(id = "gh-search-input")
     WebElement searchField;
     @FindBy(xpath = "//button[@title='Search']")
     WebElement searchBtn;

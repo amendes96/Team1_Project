@@ -3,7 +3,7 @@
 <suite name="Best Buy" parallel="none">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
-    <parameter name="os" value="windows"/>
+    <parameter name="os" value="mac"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browser_name" value="chrome"/>
     <parameter name="browserVersion" value="63.0"/>
@@ -11,10 +11,10 @@
 
     <test name="Best Buy Homepage Test">
         <classes>
-            <!--<class name="testdatadriven.TestGoogleSheets"/>-->
+            <class name="testdatadriven.TestGoogleSheets"/>
             <!--<class name="testpageobject.TestHomePage"/>-->
             <!--<class name="testpageobject.TestCreditCards"/>-->
-            <class name="testkeyworddriven.SignUpTest"/>
+            <!--<class name="testkeyworddriven.SignUpTest"/>-->
 
         </classes>
     </test>

@@ -3,30 +3,58 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [HuffingtonPost]">
   <parameter name="browser_name" value="chrome"/>
   <parameter name="useCloudEnv" value="false"/>
-  <parameter name="os" value="windows"/>
+  <parameter name="os" value="Windows"/>
   <parameter name="os_version" value="10"/>
   <parameter name="browserVersion" value="63.0"/>
   <parameter name="cloudEnvName" value="browserstack"/>
   <parameter name="url" value="https://www.huffingtonpost.com/"/>
   <test verbose="0" name="Test Huffington Post(failed)">
     <classes>
-      <class name="testcaseshuff.TestNews">
+      <class name="testcaseshuff.TestMenuBar">
         <methods>
-          <include name="testBusiness"/>
-          <include name="testUsNews"/>
-          <include name="testWeirdNews"/>
-          <include name="testHighline"/>
-          <include name="testcrime"/>
-          <include name="extentSetup"/>
-          <include name="startExtent"/>
-          <include name="testscope"/>
-          <include name="testWorldnews"/>
           <include name="tearDown"/>
           <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="testMenuBar"/>
+        </methods>
+      </class> <!-- testcaseshuff.TestMenuBar -->
+      <class name="testentertainment.TestingEntertainment">
+        <methods>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="testculture"/>
+          <include name="testmedia"/>
+          <include name="testentertainment"/>
+        </methods>
+      </class> <!-- testentertainment.TestingEntertainment -->
+      <class name="testcaseshuff.TestNews">
+        <methods>
+          <include name="testWeirdNews"/>
+          <include name="testscope"/>
+          <include name="tearDown"/>
+          <include name="testcrime"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="testtech"/>
+          <include name="startExtent"/>
         </methods>
       </class> <!-- testcaseshuff.TestNews -->
+      <class name="testcaseshuff.TestSubscribeNews">
+        <methods>
+          <include name="testSubscribeforAllNews"/>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testcaseshuff.TestSubscribeNews -->
     </classes>
   </test> <!-- Test Huffington Post(failed) -->
 </suite> <!-- Failed suite [HuffingtonPost] -->

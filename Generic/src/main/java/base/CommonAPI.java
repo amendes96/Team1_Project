@@ -37,8 +37,8 @@ public class CommonAPI {
     public static WebDriver driver = null;
     public String browserstack_username = "altonmendes2";
     public String browserstack_accesskey = "J1vw2AtRHEpxvKXLaskd";
-    public String saucelabs_username;
-    public String saucelabs_accesskey;
+    public String saucelabs_username = "amendes9";
+    public String saucelabs_accesskey = "47efaa80-ec63-4b37-9fe5-921d271b790b";
 
     public static ExtentReports extent;
     @BeforeSuite
